@@ -1,0 +1,109 @@
+:root {
+  /* Backgrounds */
+  --bg-primary: #0f0f10;
+  --bg-secondary: #1a1a1b;
+
+  /* Text */
+  --text-primary: #ffffff;
+  --text-secondary: #9a9a9a;
+
+  /* Accents */
+  --accent-primary: #ff6f59;    /* coral — headings, links, highlights */
+  --accent-secondary: #f4b860;  /* warm gold — hover states, small details */
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+
+
+header h1 {
+    padding: 0rem;
+    margin: 0rem;
+    color: var(--text-primary);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 5rem;
+    flex-wrap: wrap;
+    background: var(--bg-secondary);
+    margin-bottom: 3rem;
+
+}
+
+
+
+@media (max-width: 600px) {
+  header {
+    gap: 0;
+    flex-direction: column;
+      align-items: flex-start;
+  }
+
+
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  padding-left: 0.5rem;
+}
+
+.contact-icons a {
+  color: var(--muted);
+  font-size: 1.4rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-icons a:hover {
+  transform: translateY(-2px);
+  color: var(--accent-secondary);
+
+}
+
+footer {
+  text-align: center;
+  color: var(--text-secondary);
+  padding: 2rem 0;
+  font-size: 0.9rem;
+
+}
+
+footer p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+footer a {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+footer a:hover {
+  color: var(--accent-secondary);
+  transform: translateY(-2px);
+  background: var(--bg-secondary);
+
+}
+

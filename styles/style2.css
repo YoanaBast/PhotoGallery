@@ -1,0 +1,55 @@
+.gallery-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.photo {
+  border-radius: 8px;
+  overflow: hidden;
+  background: #1a1a1b;
+}
+
+.photo-toggle {
+  display: none;
+}
+
+.photo-tap {
+  display: flex;
+  align-items: stretch;
+  cursor: default;
+}
+
+.photo-tap img {
+  width: 40%;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: block;
+}
+
+.photo-tap figcaption {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.5rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #9a9a9a;
+  text-align: left;
+}
+
+/* Stack image on top of text on small screens */
+@media (max-width: 600px) {
+  .photo-tap {
+    flex-direction: column;
+  }
+
+  .photo-tap img {
+    width: 100%;
+  }
+
+  .photo-tap figcaption {
+    padding: 1rem;
+  }
+}

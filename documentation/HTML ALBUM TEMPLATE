@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+<!-- The page title in the tab -->
+    <title>Your Album</title>
+
+<!-- Camera icon in the tab-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+<!-- the style of the gallery can be changed by choosing different style files
+    style1 = grid
+    style2 = 1 image per row, good for people who love long descriptions
+    see documentation for examples
+-->
+    <link rel="stylesheet" href="styles/style1.css">
+
+
+<!-- the main style is jutt the header and background colors -->
+    <link rel="stylesheet" href="styles/main_style.css">
+
+</head>
+
+
+
+<body>
+
+    <header>
+<!-- The title in the header at the top -->
+        <h1>
+            Your Gallery
+        </h1>
+<!-- contact links, swap @yourhandle for the actual one, remove whatever you don't want -->
+          <div class="contact-icons">
+
+            <a href="https://instagram.com/yourhandle" aria-label="Instagram" target="_blank" rel="noopener">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://facebook.com/yourhandle" aria-label="Facebook" target="_blank" rel="noopener">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="https://www.tiktok.com/@yourhandle" aria-label="TikTok" target="_blank" rel="noopener">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+
+          </div>
+
+    </header>
+
+  <main>
+
+<!-- the photos in a nice grid
+placing text between the <figcaption></figcaption> tag under a photo will display that same text on hoover like a description
+-->
+    <div class="gallery-grid">
+
+<!-- ALL IMAGES PLACEHOLDER START -->
+
+
+
+        <!-- ALL IMAGES PLACEHOLDER END -->
+
+        </div>
+  </main>
+
+    <footer>
+        <h1>
+            Photographer: You
+        </h1>
+      <p>
+        Website template developed by Yoana Bastiyanova
+        <a href="https://github.com/YoanaBast" aria-label="GitHub" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </p>
+    </footer>
+
+
+</body>
+</html>
