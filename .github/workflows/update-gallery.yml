@@ -1,7 +1,7 @@
 name: Update Gallery
 
 # Runs whenever photos are added/removed/renamed through the GitHub website
-# (or any push), regenerates index.html with update-gallery.js, and commits
+# (or any push), regenerates index.html with update-albums.js, and commits
 # the result back to main. Only triggers on changes inside /photos, and
 # skips runs made by the bot itself, so it can't create an infinite loop.
 
@@ -33,7 +33,7 @@ jobs:
           node-version: '20'
 
       - name: Run gallery update script
-        run: node update-gallery.js
+        run: node update-albums.js
 
       - name: Commit and push index.html if it changed
         run: |
