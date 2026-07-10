@@ -10,6 +10,8 @@ It's totally free, but consider giving me a star or keepng my name in the footer
 ## Setup: [Setup Guide](documentation/SETUP.md)
 ---
 ## Style Options
+#### Style 1: interactive hover/click/tap text, clean, grid
+#### Style 2: 1 image per row, big text space
 <table>
   <tr>
     <th></th>
