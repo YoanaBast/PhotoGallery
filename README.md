@@ -8,6 +8,7 @@ It's totally free, but consider giving me a star or keepng my name in the footer
 ## Demo: [View the live gallery](https://yoanabast.github.io/PhotoGallery/)
 ---
 ## Setup: [Setup Guide](documentation/SETUP.md)
+🔴 [Live Setup Video Guide](https://1drv.ms/v/c/58c600f7cd74ce27/IQC-l54mkKyTR42g5HnvGiZDAdCGRGAyP3orBvGVlBloxrY?e=dl2ilx)
 ---
 ## Style Options
 #### Style 1: interactive hover/click/tap text, clean, grid
