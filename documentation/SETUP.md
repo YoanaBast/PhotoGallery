@@ -5,8 +5,11 @@
 2. **Allow the Action to commit back to your repo.**
    Go to **Settings → Actions → General → Workflow permissions** → select **"Read and write permissions"** → **Save**.
    *(Without this, the Action can run the script but can't push the updated `index.html` back — uploads will "silently" not appear.)*
+   
+   Since the repo is forked, we need to allow it in Actions for the repo too (click the green option):
+![Workflow Setting](workflow_setting.png)
 
-3. **Turn on GitHub Pages.**
+4. **Turn on GitHub Pages.**
    Go to **Settings → Pages → Build and deployment → Source** → select **"Deploy from a branch"** → Branch: `main`, folder: `/ (root)` → **Save**.
    You will get an URL after a few minutes. 
 
